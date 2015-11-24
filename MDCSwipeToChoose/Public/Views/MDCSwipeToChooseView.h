@@ -23,6 +23,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AsyncImageView.h"
 
 @class MDCSwipeToChooseViewOptions;
 
@@ -35,7 +36,7 @@
 /*!
  * The main image to be displayed and then "liked" or "disliked".
  */
-@property (nonatomic, strong) UIImageView *imageView;
+@property (nonatomic, strong) AsyncImageView *imageView;
 
 /*!
  * The "liked" view, which fades in as the `MDCSwipeToChooseView` is panned to the right.
